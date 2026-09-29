@@ -120,6 +120,31 @@ for (const file of fs.readdirSync(path.join(ROOT, "match")).filter((f) => f.ends
   });
 }
 
+/* ---------------- mock tests ---------------- */
+const mockDir = path.join(ROOT, "mocks");
+for (const file of fs.existsSync(mockDir) ? fs.readdirSync(mockDir).filter((f) => f.endsWith(".json")) : []) {
+  const where = `mocks/${file}`;
+  const m = readJson(path.join(mockDir, file));
+  if (!m) continue;
+  if (m.slug !== file.replace(/\.json$/, "") || !/^[a-z0-9-]+$/.test(m.slug)) err(where, "slug must match file name");
+  if (!EXAMS.has(m.exam)) err(where, "exam must be one of the allowed exam keys");
+  if (typeof m.premium !== "boolean") err(where, "premium must be true or false");
+  if (!(m.durationMin > 0 && m.durationMin <= 180)) err(where, "durationMin must be 1–180");
+  if (!(m.marks?.correct > 0) || !(m.marks?.wrong >= 0)) err(where, "marks needs correct > 0 and wrong >= 0 (penalty as a positive number)");
+  for (const l of ["en", "hi"]) if (!str(m[l]?.title) || !str(m[l]?.description)) err(where, `${l}.title and ${l}.description are required`);
+  const seen = new Set();
+  if (!Array.isArray(m.sections) || !m.sections.length) err(where, "sections must be a non-empty list");
+  else m.sections.forEach((s, i) => {
+    if (!str(s.en) || !str(s.hi)) err(where, `section ${i + 1} needs en and hi names`);
+    if (!Array.isArray(s.ids) || !s.ids.length) return err(where, `section ${i + 1} needs ids`);
+    s.ids.forEach((id) => {
+      if (!ids.has(id)) err(where, `unknown question id ${id}`);
+      if (seen.has(id)) err(where, `question ${id} appears twice`);
+      seen.add(id);
+    });
+  });
+}
+
 /* ---------------- report ---------------- */
 if (process.argv.includes("--stats")) {
   const count = (key) => all.reduce((acc, q) => ((acc[key(q)] = (acc[key(q)] || 0) + 1), acc), {});

@@ -92,3 +92,20 @@ export function getDailySet(date = todayKey()): { date: string; curated: boolean
   const seed = Number(date.replace(/-/g, ""));
   return { date, curated: false, questions: shuffle(all, seeded(seed)).slice(0, SITE.dailyCount) };
 }
+
+/* ---------------- lookups & mock tests ---------------- */
+let questionMap: Map<string, Question> | null = null;
+export function getQuestionMap() {
+  questionMap ??= new Map(getQuestions().map((q) => [q.id, q]));
+  return questionMap;
+}
+
+export type MockTest = {
+  slug: string; exam: string; premium: boolean; icon: string; durationMin: number;
+  marks: { correct: number; wrong: number };
+  en: { title: string; description: string }; hi: { title: string; description: string };
+  sections: { en: string; hi: string; ids: string[] }[];
+};
+export const getMocks = (): MockTest[] => list("mocks").map((f) => read<MockTest>("mocks", f));
+export const getMock = (slug: string) => getMocks().find((m) => m.slug === slug);
+export const mockCount = (m: MockTest) => m.sections.reduce((n, s) => n + s.ids.length, 0);

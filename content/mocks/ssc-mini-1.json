@@ -1,0 +1,64 @@
+{
+  "slug": "ssc-mini-1",
+  "exam": "ssc",
+  "premium": false,
+  "icon": "📝",
+  "durationMin": 20,
+  "marks": {
+    "correct": 2,
+    "wrong": 0.5
+  },
+  "en": {
+    "title": "SSC Mini Mock 1",
+    "description": "25 questions in the SSC CGL/CHSL Tier-1 style: General Awareness, Quantitative Aptitude and Reasoning."
+  },
+  "hi": {
+    "title": "SSC मिनी मॉक 1",
+    "description": "SSC CGL/CHSL टियर-1 शैली के 25 प्रश्न: सामान्य जागरूकता, गणित और तर्कशक्ति।"
+  },
+  "sections": [
+    {
+      "en": "General Awareness",
+      "hi": "सामान्य जागरूकता",
+      "ids": [
+        "pol-0001",
+        "pol-0002",
+        "pol-0003",
+        "his-0001",
+        "his-0002",
+        "his-0003",
+        "geo-0001",
+        "geo-0002",
+        "geo-0003",
+        "sci-0001",
+        "sci-0002",
+        "sci-0003",
+        "eco-0001",
+        "eco-0002",
+        "eco-0003"
+      ]
+    },
+    {
+      "en": "Quantitative Aptitude",
+      "hi": "संख्यात्मक अभियोग्यता",
+      "ids": [
+        "mat-0001",
+        "mat-0002",
+        "mat-0003",
+        "mat-0004",
+        "mat-0005"
+      ]
+    },
+    {
+      "en": "General Intelligence & Reasoning",
+      "hi": "सामान्य बुद्धि एवं तर्कशक्ति",
+      "ids": [
+        "rea-0001",
+        "rea-0002",
+        "rea-0003",
+        "rea-0004",
+        "rea-0005"
+      ]
+    }
+  ]
+}

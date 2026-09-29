@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
 import { LANGS } from "@/lib/i18n";
-import { SUBJECT_KEYS, getMatchSets, getNotes } from "@/lib/content";
+import { SUBJECT_KEYS, getMatchSets, getMocks, getNotes } from "@/lib/content";
 import { SITE } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
-    "", "/daily", "/speed", "/games", "/notes", "/tools/age-calculator",
+    "", "/daily", "/speed", "/games", "/notes", "/tools/age-calculator", "/mocks", "/leaderboard", "/premium", "/institute",
+    ...getMocks().map((m) => `/mocks/${m.slug}`),
     ...SUBJECT_KEYS.flatMap((s) => [`/mcq/${s}`, `/practice/${s}`]),
     ...getNotes().map((n) => `/notes/${n.slug}`),
     ...getMatchSets().map((m) => `/match/${m.slug}`),

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { DICT, isLang } from "@/lib/i18n";
 import { SUBJECTS, SUBJECT_KEYS, getQuestions } from "@/lib/content";
 import { Hero, SubjectProgress } from "@/components/HomeStatus";
+import AdSlot from "@/components/AdSlot";
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: l } = await params;
@@ -12,6 +13,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   const labels = Object.fromEntries(SUBJECT_KEYS.map((k) => [k, SUBJECTS[k][lang]]));
 
   const modes = [
+    { href: "mocks", icon: "📝", title: t.mock.title, sub: t.mock.sub, hot: true },
+    { href: "leaderboard", icon: "🏆", title: t.board.title, sub: t.board.today, hot: true },
     { href: "speed", icon: "⚡", title: t.modes.speed, sub: t.modes.speedSub, hot: true },
     { href: "games", icon: "🧩", title: t.modes.match, sub: t.modes.matchSub, hot: true },
     { href: "notes", icon: "📘", title: t.modes.notes, sub: t.modes.notesSub },
@@ -45,6 +48,14 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       </div>
 
       <SubjectProgress labels={labels} empty={t.home.progressEmpty} title={t.home.progress} />
+
+      <Link href={`/${lang}/premium`} className="card mt-6 flex items-center gap-3 border-transparent bg-accent-soft text-ink no-underline">
+        <span className="text-3xl">⭐</span>
+        <span className="flex-1"><b className="block text-lg">{t.premium.title}</b><small className="text-muted">{t.premium.features[0]}</small></span>
+        <span className="font-bold text-primary">₹49 →</span>
+      </Link>
+
+      <AdSlot />
 
       <h2 className="mt-7 mb-3 text-xl">{t.home.bank}</h2>
       <div className="flex flex-wrap gap-2">

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DICT, LANGS, fill, isLang } from "@/lib/i18n";
 import { SUBJECTS, SUBJECT_KEYS, getQuestions, isSubject, topicName } from "@/lib/content";
+import AdSlot from "@/components/AdSlot";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => LANGS.flatMap((lang) => SUBJECT_KEYS.map((subject) => ({ lang, subject })));
@@ -66,6 +67,7 @@ export default async function McqPage({ params }: P) {
         </section>
       ))}
 
+      <AdSlot />
       <div className="mt-8 flex flex-wrap gap-2">
         {SUBJECT_KEYS.filter((k) => k !== subject).map((k) => (
           <Link key={k} href={`/${lang}/mcq/${k}`} className="rounded-full border border-line bg-surface px-3 py-1.5 text-sm font-semibold text-ink no-underline">

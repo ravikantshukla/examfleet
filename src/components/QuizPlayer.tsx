@@ -5,6 +5,9 @@ import type { ClientQuestion } from "@/lib/content";
 import type { Dict } from "@/lib/i18n";
 import { fill } from "@/lib/i18n";
 import { recordAnswer, recordDaily, recordSpeed } from "@/lib/progress";
+import AskAI from "./AskAI";
+import AdSlot from "./AdSlot";
+import { useAuth } from "./AuthProvider";
 
 type Mode = "daily" | "speed" | "practice";
 type Props = {
@@ -14,6 +17,8 @@ type Props = {
   questions: ClientQuestion[];
   subjectLabels: Record<string, { label: string; icon: string }>;
   t: Dict["quiz"];
+  tAi: Dict["ai"];
+  tAccount: Dict["account"];
   siteName: string;
   shareUrl: string;
   date?: string;
@@ -38,6 +43,9 @@ export default function QuizPlayer(props: Props) {
   const [done, setDone] = useState(false);
   const [best, setBest] = useState<number | null>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
+  const startedAt = useRef(Date.now());
+  const { enabled: authOn, user } = useAuth();
+  const [sync, setSync] = useState<"idle" | "saved" | "failed">("idle");
 
   // Practice & speed start in a random order (after mount, so server and client HTML match).
   useEffect(() => { if (mode !== "daily") setList(shuffle(props.questions)); }, [mode, props.questions]);
@@ -50,7 +58,17 @@ export default function QuizPlayer(props: Props) {
     if (mode === "daily" && props.date) recordDaily(props.date, s);
     if (mode === "speed") setBest(recordSpeed(s));
     window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [mode, props.date]);
+    if (user && finalLog.length) {
+      fetch("/api/progress", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          mode, date: props.date, timeMs: Date.now() - startedAt.current,
+          answers: finalLog.map((l) => ({ id: l.q.id, pick: l.pick })),
+        }),
+      }).then((r) => setSync(r.ok ? "saved" : "failed")).catch(() => setSync("failed"));
+    }
+  }, [mode, props.date, user]);
 
   // Speed-round timer (ticks independently of answers)
   const logRef = useRef<Log[]>([]);
@@ -86,7 +104,8 @@ export default function QuizPlayer(props: Props) {
 
   function restart() {
     setList(mode === "daily" ? props.questions : shuffle(props.questions));
-    setI(0); setPick(null); setLog([]); setLeft(seconds); setDone(false);
+    setI(0); setPick(null); setLog([]); setLeft(seconds); setDone(false); setSync("idle");
+    startedAt.current = Date.now();
   }
 
   if (!q) return null;
@@ -105,6 +124,9 @@ export default function QuizPlayer(props: Props) {
           <div className="my-2 font-display text-6xl font-extrabold text-primary">{mode === "speed" ? score : `${score}/${total}`}</div>
           {mode === "speed" && <p className="text-muted">{t.correctAnswers}{best !== null ? ` · ${t.best}: ${best}` : ""}</p>}
           <p className="my-3">{msg}</p>
+          {authOn && (user
+            ? sync === "saved" && <p className="mb-3 text-sm text-good">{props.tAccount.saved}</p>
+            : <p className="mb-3 text-sm"><Link href={`/${lang}/login`}>{props.tAccount.saveNudge}</Link></p>)}
           <a className="btn btn-wa w-full" href={`https://wa.me/?text=${encodeURIComponent(shareText)}`} target="_blank" rel="noopener noreferrer">
             {t.share}
           </a>
@@ -113,6 +135,7 @@ export default function QuizPlayer(props: Props) {
             <Link className="btn btn-ghost" href={`/${lang}`}>🏠 {t.home}</Link>
           </div>
         </div>
+        <AdSlot />
         {log.length > 0 && (
           <>
             <h2 className="mt-6 mb-3 text-xl">{t.review}</h2>
@@ -180,6 +203,7 @@ export default function QuizPlayer(props: Props) {
                 {pick === q.a ? `✅ ${t.correct}` : `❌ ${t.wrong} ${q.o[q.a]}`}
               </b>
               {q.e}
+              <AskAI key={q.id} id={q.id} lang={lang} t={props.tAi} />
             </div>
             <button ref={nextRef} className="btn mt-4 w-full" onClick={() => advance()}>
               {last ? t.finish : t.next} →

@@ -12,6 +12,7 @@ Follow it strictly: the site is for real exam aspirants, and one wrong answer co
 | Hindi topic names | `content/topics.json` | Every `topic` used in a question must have a Hindi name here |
 | Notes | `content/notes/<slug>.json` | Bilingual one-page revision sheets (simple HTML: `p, h3, ul, li, table, b, div.tip`) |
 | Match-the-pairs | `content/match/<slug>.json` | 4 to 6 pairs, bilingual |
+| Mock tests | `content/mocks/<slug>.json` | `exam`, `premium`, `durationMin`, `marks` (`correct`, `wrong` penalty), bilingual `title`/`description`, and `sections` (bilingual name + question `ids`). A question may appear in only one section of a mock. |
 
 Run `npm run validate` after every change (it also runs inside `npm run build`). Run `npm run stats` to see counts per topic, the latest daily set and the **next free id for each subject**.
 

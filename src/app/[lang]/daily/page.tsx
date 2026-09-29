@@ -32,6 +32,8 @@ export default async function DailyPage({ params }: { params: Promise<{ lang: st
       questions={daily.questions.map((q) => toClient(q, lang))}
       subjectLabels={subjectLabels(lang)}
       t={t.quiz}
+      tAi={t.ai}
+      tAccount={t.account}
       siteName={SITE.name}
       shareUrl={`${SITE.url}/${lang}/daily`}
     />

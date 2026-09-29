@@ -31,6 +31,8 @@ export default async function SpeedPage({ params }: { params: Promise<{ lang: st
       seconds={SITE.speedSeconds}
       subjectLabels={subjectLabels(lang)}
       t={t.quiz}
+      tAi={t.ai}
+      tAccount={t.account}
       siteName={SITE.name}
       shareUrl={`${SITE.url}/${lang}/speed`}
     />

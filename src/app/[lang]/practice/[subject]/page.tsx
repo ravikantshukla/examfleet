@@ -36,6 +36,8 @@ export default async function PracticePage({ params }: P) {
         questions={questions}
         subjectLabels={subjectLabels(lang)}
         t={t.quiz}
+        tAi={t.ai}
+        tAccount={t.account}
         siteName={SITE.name}
         shareUrl={`${SITE.url}/${lang}/practice/${subject}`}
       />

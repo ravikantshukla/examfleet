@@ -1,3 +1,5 @@
+import { SAAS, type SaasDict } from "./i18n-saas";
+
 export const LANGS = ["en", "hi"] as const;
 export type Lang = (typeof LANGS)[number];
 export const isLang = (v: string): v is Lang => (LANGS as readonly string[]).includes(v);
@@ -67,9 +69,9 @@ const en = {
   footer: "Free practice for government exam aspirants.",
 };
 
-type Dict = typeof en;
+type BaseDict = typeof en;
 
-const hi: Dict = {
+const hi: BaseDict = {
   langName: "हिंदी",
   otherLang: "English",
   tagline: "SSC, रेलवे, बैंकिंग और राज्य परीक्षाओं के लिए मुफ़्त रोज़ाना अभ्यास",
@@ -130,5 +132,6 @@ const hi: Dict = {
   footer: "सरकारी परीक्षा की तैयारी करने वालों के लिए मुफ़्त अभ्यास।",
 };
 
-export const DICT: Record<Lang, Dict> = { en, hi };
-export type { Dict };
+export const DICT: Record<Lang, BaseDict & SaasDict> = { en: { ...en, ...SAAS.en }, hi: { ...hi, ...SAAS.hi } };
+type FullDict = BaseDict & SaasDict;
+export type { FullDict as Dict };

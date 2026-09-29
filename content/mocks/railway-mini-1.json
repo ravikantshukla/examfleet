@@ -1,0 +1,70 @@
+{
+  "slug": "railway-mini-1",
+  "exam": "railway",
+  "premium": true,
+  "icon": "🚆",
+  "durationMin": 20,
+  "marks": {
+    "correct": 1,
+    "wrong": 0.33
+  },
+  "en": {
+    "title": "Railway Mini Mock 1",
+    "description": "25 questions in the RRB NTPC / Group D style: General Awareness, General Science, Mathematics and Reasoning."
+  },
+  "hi": {
+    "title": "रेलवे मिनी मॉक 1",
+    "description": "RRB NTPC / ग्रुप D शैली के 25 प्रश्न: सामान्य जागरूकता, सामान्य विज्ञान, गणित और तर्कशक्ति।"
+  },
+  "sections": [
+    {
+      "en": "General Awareness",
+      "hi": "सामान्य जागरूकता",
+      "ids": [
+        "pol-0004",
+        "pol-0005",
+        "pol-0006",
+        "his-0004",
+        "his-0005",
+        "his-0006",
+        "geo-0004",
+        "geo-0005",
+        "geo-0006",
+        "eco-0004",
+        "eco-0005",
+        "eco-0006"
+      ]
+    },
+    {
+      "en": "General Science",
+      "hi": "सामान्य विज्ञान",
+      "ids": [
+        "sci-0004",
+        "sci-0005",
+        "sci-0006",
+        "sci-0007",
+        "sci-0008",
+        "sci-0009"
+      ]
+    },
+    {
+      "en": "Mathematics",
+      "hi": "गणित",
+      "ids": [
+        "mat-0006",
+        "mat-0007",
+        "mat-0008",
+        "mat-0009"
+      ]
+    },
+    {
+      "en": "Reasoning",
+      "hi": "तर्कशक्ति",
+      "ids": [
+        "rea-0006",
+        "rea-0007",
+        "rea-0008"
+      ]
+    }
+  ]
+}

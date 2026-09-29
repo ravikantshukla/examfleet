@@ -5,6 +5,7 @@ import { DICT, LANGS, isLang } from "@/lib/i18n";
 import { SITE } from "@/lib/site";
 import Header from "@/components/Header";
 import BottomNav from "@/components/BottomNav";
+import { AuthProvider } from "@/components/AuthProvider";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => LANGS.map((lang) => ({ lang }));
@@ -46,12 +47,20 @@ export default async function RootLayout({ children, params }: { children: React
         />
       </head>
       <body className="min-h-screen pb-24 font-sans antialiased">
-        <Header lang={lang} />
-        <main className="wrap py-5">{children}</main>
-        <footer className="wrap pb-6 text-center text-sm text-muted">
-          © {new Date().getFullYear()} {SITE.name} · {t.footer}
-        </footer>
-        <BottomNav lang={lang} labels={t.nav} />
+        <AuthProvider>
+          <Header lang={lang} loginLabel={t.account.login} />
+          <main className="wrap py-5">{children}</main>
+          <footer className="wrap pb-6 text-center text-sm text-muted">
+            <nav className="mb-2 flex flex-wrap justify-center gap-x-4 gap-y-1">
+              <a href={`/${lang}/mocks`}>{t.mock.title}</a>
+              <a href={`/${lang}/leaderboard`}>{t.board.title}</a>
+              <a href={`/${lang}/premium`}>{t.premium.title}</a>
+              <a href={`/${lang}/institute`}>{t.inst.title}</a>
+            </nav>
+            © {new Date().getFullYear()} {SITE.name} · {t.footer}
+          </footer>
+          <BottomNav lang={lang} labels={t.nav} />
+        </AuthProvider>
       </body>
     </html>
   );
