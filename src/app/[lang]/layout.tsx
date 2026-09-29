@@ -5,6 +5,7 @@ import { DICT, LANGS, isLang } from "@/lib/i18n";
 import { SITE } from "@/lib/site";
 import Header from "@/components/Header";
 import BottomNav from "@/components/BottomNav";
+import SyncManager from "@/components/SyncManager";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => LANGS.map((lang) => ({ lang }));
@@ -46,12 +47,13 @@ export default async function RootLayout({ children, params }: { children: React
         />
       </head>
       <body className="min-h-screen pb-24 font-sans antialiased">
-        <Header lang={lang} />
+        <Header lang={lang} loginLabel={t.auth.login} />
         <main className="wrap py-5">{children}</main>
         <footer className="wrap pb-6 text-center text-sm text-muted">
           © {new Date().getFullYear()} {SITE.name} · {t.footer}
         </footer>
         <BottomNav lang={lang} labels={t.nav} />
+        <SyncManager />
       </body>
     </html>
   );
