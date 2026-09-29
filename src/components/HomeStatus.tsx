@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { currentStreak, loadProgress, todayIST, type Progress } from "@/lib/progress";
+import { PROGRESS_EVENT, currentStreak, loadProgress, todayIST, type Progress } from "@/lib/progress";
 
 type Props = {
   lang: string;
@@ -12,9 +12,14 @@ type Props = {
 export function Hero({ lang, t }: Props) {
   const [state, setState] = useState<{ streak: number; done: boolean } | null>(null);
   useEffect(() => {
-    const p = loadProgress();
-    const today = todayIST();
-    setState({ streak: currentStreak(p, today), done: p.lastDaily === today });
+    const read = () => {
+      const p = loadProgress();
+      const today = todayIST();
+      setState({ streak: currentStreak(p, today), done: p.lastDaily === today });
+    };
+    read();
+    window.addEventListener(PROGRESS_EVENT, read);
+    return () => window.removeEventListener(PROGRESS_EVENT, read);
   }, []);
   return (
     <section className="card border-0 bg-gradient-to-br from-[#3b3fd8] to-[#6a3fd8] text-white">
@@ -34,7 +39,12 @@ export function Hero({ lang, t }: Props) {
 
 export function SubjectProgress({ labels, empty, title }: { labels: Record<string, string>; empty: string; title: string }) {
   const [p, setP] = useState<Progress | null>(null);
-  useEffect(() => setP(loadProgress()), []);
+  useEffect(() => {
+    const read = () => setP(loadProgress());
+    read();
+    window.addEventListener(PROGRESS_EVENT, read);
+    return () => window.removeEventListener(PROGRESS_EVENT, read);
+  }, []);
   if (!p) return null;
   const rows = Object.entries(p.subjects).filter(([k, v]) => labels[k] && v.total > 0);
   return (
