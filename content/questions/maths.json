@@ -1,0 +1,317 @@
+[
+  {
+    "id": "mat-0001",
+    "subject": "maths",
+    "topic": "Percentage",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "What is 15% of 240?",
+      "o": [
+        "32",
+        "36",
+        "40",
+        "42"
+      ],
+      "e": "240 × 15 / 100 = 36."
+    },
+    "hi": {
+      "q": "240 का 15% कितना है?",
+      "o": [
+        "32",
+        "36",
+        "40",
+        "42"
+      ],
+      "e": "240 × 15 / 100 = 36।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "mat-0002",
+    "subject": "maths",
+    "topic": "Time and Work",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 0,
+    "en": {
+      "q": "5 workers finish a job in 12 days. How many days will 10 workers take?",
+      "o": [
+        "6",
+        "8",
+        "10",
+        "24"
+      ],
+      "e": "Total work = 5 × 12 = 60 worker-days, so 60 ÷ 10 = 6 days."
+    },
+    "hi": {
+      "q": "5 मज़दूर एक काम 12 दिन में करते हैं। 10 मज़दूर वही काम कितने दिन में करेंगे?",
+      "o": [
+        "6",
+        "8",
+        "10",
+        "24"
+      ],
+      "e": "कुल काम = 5 × 12 = 60 मज़दूर-दिन, तो 60 ÷ 10 = 6 दिन।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "mat-0003",
+    "subject": "maths",
+    "topic": "Simple Interest",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Simple interest on ₹1,000 at 10% per annum for 2 years is:",
+      "o": [
+        "₹100",
+        "₹200",
+        "₹210",
+        "₹250"
+      ],
+      "e": "SI = P × R × T / 100 = 1000 × 10 × 2 / 100 = ₹200. (Compound interest would be ₹210.)"
+    },
+    "hi": {
+      "q": "₹1,000 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+      "o": [
+        "₹100",
+        "₹200",
+        "₹210",
+        "₹250"
+      ],
+      "e": "साधारण ब्याज = P × R × T / 100 = 1000 × 10 × 2 / 100 = ₹200। (चक्रवृद्धि ब्याज ₹210 होता।)"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "mat-0004",
+    "subject": "maths",
+    "topic": "Speed and Distance",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 1,
+    "en": {
+      "q": "A 150 m long train runs at 54 km/h. How long will it take to cross a pole?",
+      "o": [
+        "8 s",
+        "10 s",
+        "12 s",
+        "15 s"
+      ],
+      "e": "54 km/h = 54 × 5/18 = 15 m/s. Time = 150 ÷ 15 = 10 seconds."
+    },
+    "hi": {
+      "q": "150 मीटर लंबी ट्रेन 54 किमी/घंटा की चाल से चल रही है। वह एक खंभे को कितने समय में पार करेगी?",
+      "o": [
+        "8 से.",
+        "10 से.",
+        "12 से.",
+        "15 से."
+      ],
+      "e": "54 किमी/घं = 54 × 5/18 = 15 मी/से। समय = 150 ÷ 15 = 10 सेकंड।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "mat-0005",
+    "subject": "maths",
+    "topic": "Square Roots",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "√1764 = ?",
+      "o": [
+        "38",
+        "42",
+        "44",
+        "48"
+      ],
+      "e": "42 × 42 = 1764. (It ends in 4, so the root ends in 2 or 8; 40² = 1600, so it's 42.)"
+    },
+    "hi": {
+      "q": "√1764 = ?",
+      "o": [
+        "38",
+        "42",
+        "44",
+        "48"
+      ],
+      "e": "42 × 42 = 1764। (अंत में 4 है, तो मूल का अंतिम अंक 2 या 8; 40² = 1600, इसलिए 42।)"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "mat-0006",
+    "subject": "maths",
+    "topic": "Profit and Loss",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "An item bought for ₹400 is sold for ₹500. What is the profit percentage?",
+      "o": [
+        "20%",
+        "25%",
+        "30%",
+        "100%"
+      ],
+      "e": "Profit = ₹100. Profit % = 100 / 400 × 100 = 25%."
+    },
+    "hi": {
+      "q": "₹400 में खरीदी वस्तु ₹500 में बेची गई। लाभ प्रतिशत कितना है?",
+      "o": [
+        "20%",
+        "25%",
+        "30%",
+        "100%"
+      ],
+      "e": "लाभ = ₹100। लाभ % = 100 / 400 × 100 = 25%।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "mat-0007",
+    "subject": "maths",
+    "topic": "Average",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 2,
+    "en": {
+      "q": "The average of 5 numbers is 20. If one number is removed, the average of the rest becomes 18. Which number was removed?",
+      "o": [
+        "22",
+        "26",
+        "28",
+        "30"
+      ],
+      "e": "Sum of 5 numbers = 5 × 20 = 100. Sum of the remaining 4 = 4 × 18 = 72. Removed number = 100 − 72 = 28."
+    },
+    "hi": {
+      "q": "5 संख्याओं का औसत 20 है। एक संख्या हटाने पर शेष का औसत 18 हो जाता है। हटाई गई संख्या कौन-सी है?",
+      "o": [
+        "22",
+        "26",
+        "28",
+        "30"
+      ],
+      "e": "5 संख्याओं का योग = 5 × 20 = 100। शेष 4 का योग = 4 × 18 = 72। हटाई गई संख्या = 100 − 72 = 28।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "mat-0008",
+    "subject": "maths",
+    "topic": "Ratio and Proportion",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "The ratio of boys to girls in a class is 3 : 2. If there are 40 students, how many girls are there?",
+      "o": [
+        "12",
+        "16",
+        "20",
+        "24"
+      ],
+      "e": "Girls = 2/5 × 40 = 16."
+    },
+    "hi": {
+      "q": "एक कक्षा में लड़कों और लड़कियों का अनुपात 3 : 2 है। यदि कुल 40 छात्र हैं, तो लड़कियाँ कितनी हैं?",
+      "o": [
+        "12",
+        "16",
+        "20",
+        "24"
+      ],
+      "e": "लड़कियाँ = 2/5 × 40 = 16।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "mat-0009",
+    "subject": "maths",
+    "topic": "LCM and HCF",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "What is the LCM of 12, 18 and 24?",
+      "o": [
+        "36",
+        "48",
+        "72",
+        "144"
+      ],
+      "e": "12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3. LCM = 2³ × 3² = 72."
+    },
+    "hi": {
+      "q": "12, 18 और 24 का ल.स.प. (LCM) क्या है?",
+      "o": [
+        "36",
+        "48",
+        "72",
+        "144"
+      ],
+      "e": "12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3। ल.स.प. = 2³ × 3² = 72।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  }
+]

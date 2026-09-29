@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ExamFleet
 
-## Getting Started
+Free, bilingual (English + हिंदी) daily practice for SSC, Railway, Banking and State exams.
 
-First, run the development server:
+- **Daily Challenge:** 10 new questions every day, streaks and a WhatsApp share card
+- **Speed Round:** as many correct answers as possible in 60 seconds
+- **Practice by subject** with explanations, and crawlable **MCQ pages** for Google search
+- **Match the Pairs** revision games, **Quick Notes**, and an **Age Eligibility Calculator**
+- New questions are added every night by a scheduled Claude task (see `CONTENT_PLAYBOOK.md`)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Tech
+
+Next.js (App Router, TypeScript) + Tailwind CSS, deployed on Vercel. Content is plain JSON in `content/`, so adding questions is just editing files. Progress (streaks, accuracy) is stored in the browser for now; accounts, payments and AI features come next.
+
+```
+content/
+  questions/<subject>.json   question bank (bilingual)
+  daily/YYYY-MM-DD.json      the 10 question ids for each day's challenge
+  topics.json                Hindi names for topics
+  notes/, match/             revision notes and match-the-pairs sets
+scripts/validate-content.mjs  checks every content file (runs on every build)
+src/app/[lang]/...           pages (/en/... and /hi/...)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev        # http://localhost:3000
+npm run validate   # check content
+npm run stats      # question counts, next free ids
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deploy (Vercel)
 
-## Learn More
+1. Import this repo at vercel.com → New Project (framework: Next.js, no settings to change).
+2. Add the environment variable `NEXT_PUBLIC_SITE_URL` = your domain, e.g. `https://yourdomain.com`.
+3. Add your domain under Project → Settings → Domains and copy the DNS records into your domain registrar.
 
-To learn more about Next.js, take a look at the following resources:
+Every push to `main` redeploys the site, including the nightly question updates.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Login (Google / phone OTP) with Supabase, synced streaks and progress
+2. Full mock tests with timers and all-India leaderboard
+3. Premium plan via Razorpay (ad-free, detailed analytics, weak-topic practice, PDFs)
+4. AI doubt helper in Hindi and English (Claude API)
+5. Coaching-centre white-label dashboards

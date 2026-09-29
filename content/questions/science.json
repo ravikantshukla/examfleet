@@ -1,0 +1,387 @@
+[
+  {
+    "id": "sci-0001",
+    "subject": "science",
+    "topic": "Biology",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Which cell organelle is called the 'powerhouse of the cell'?",
+      "o": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria",
+        "Golgi body"
+      ],
+      "e": "Mitochondria produce energy (ATP) through cellular respiration."
+    },
+    "hi": {
+      "q": "कोशिका का 'पावरहाउस' किसे कहा जाता है?",
+      "o": [
+        "केंद्रक",
+        "राइबोसोम",
+        "माइटोकॉन्ड्रिया",
+        "गॉल्जी काय"
+      ],
+      "e": "माइटोकॉन्ड्रिया कोशिकीय श्वसन द्वारा ऊर्जा (ATP) बनाते हैं।"
+    },
+    "source": "NCERT Class 9 Science",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0002",
+    "subject": "science",
+    "topic": "Biology",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Scurvy is caused by deficiency of:",
+      "o": [
+        "Vitamin A",
+        "Vitamin B1",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "e": "Vitamin C deficiency causes scurvy (bleeding gums). Vitamin D deficiency causes rickets."
+    },
+    "hi": {
+      "q": "स्कर्वी रोग किसकी कमी से होता है?",
+      "o": [
+        "विटामिन A",
+        "विटामिन B1",
+        "विटामिन C",
+        "विटामिन D"
+      ],
+      "e": "विटामिन C की कमी से स्कर्वी (मसूड़ों से खून) होता है; विटामिन D की कमी से रिकेट्स।"
+    },
+    "source": "NCERT Class 6 Science",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0003",
+    "subject": "science",
+    "topic": "Physics",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "What is the SI unit of force?",
+      "o": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "e": "Newton (N) is the unit of force. Joule is energy, Watt is power and Pascal is pressure."
+    },
+    "hi": {
+      "q": "बल का SI मात्रक क्या है?",
+      "o": [
+        "जूल",
+        "न्यूटन",
+        "वाट",
+        "पास्कल"
+      ],
+      "e": "न्यूटन (N) बल का मात्रक है। जूल ऊर्जा, वाट शक्ति और पास्कल दाब का मात्रक है।"
+    },
+    "source": "NCERT Class 9 Science",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0004",
+    "subject": "science",
+    "topic": "Chemistry",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 0,
+    "en": {
+      "q": "What is the chemical formula of common salt?",
+      "o": [
+        "NaCl",
+        "KCl",
+        "NaOH",
+        "Na₂CO₃"
+      ],
+      "e": "Common salt is sodium chloride (NaCl). Na₂CO₃ is washing soda."
+    },
+    "hi": {
+      "q": "साधारण नमक का रासायनिक सूत्र क्या है?",
+      "o": [
+        "NaCl",
+        "KCl",
+        "NaOH",
+        "Na₂CO₃"
+      ],
+      "e": "साधारण नमक सोडियम क्लोराइड (NaCl) है। Na₂CO₃ धोने का सोडा है।"
+    },
+    "source": "NCERT Class 10 Science",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0005",
+    "subject": "science",
+    "topic": "Chemistry",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Which gas is most abundant in Earth's atmosphere?",
+      "o": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Argon"
+      ],
+      "e": "Nitrogen makes up about 78% of the atmosphere; oxygen is about 21%."
+    },
+    "hi": {
+      "q": "पृथ्वी के वायुमंडल में सबसे अधिक मात्रा में कौन-सी गैस है?",
+      "o": [
+        "ऑक्सीजन",
+        "नाइट्रोजन",
+        "कार्बन डाइऑक्साइड",
+        "आर्गन"
+      ],
+      "e": "नाइट्रोजन लगभग 78% और ऑक्सीजन लगभग 21% है।"
+    },
+    "source": "NCERT Class 7 Science",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0006",
+    "subject": "science",
+    "topic": "Biology",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 2,
+    "en": {
+      "q": "Which blood group is known as the universal donor?",
+      "o": [
+        "A+",
+        "AB+",
+        "O−",
+        "B−"
+      ],
+      "e": "O negative red cells can be given to any blood group. AB+ is the universal recipient."
+    },
+    "hi": {
+      "q": "किस रक्त समूह को सर्वदाता कहा जाता है?",
+      "o": [
+        "A+",
+        "AB+",
+        "O−",
+        "B−"
+      ],
+      "e": "O निगेटिव लाल रक्त कोशिकाएँ किसी भी रक्त समूह को दी जा सकती हैं। AB+ सर्वग्राही है।"
+    },
+    "source": "NCERT Class 11 Biology",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0007",
+    "subject": "science",
+    "topic": "Chemistry",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "What is the pH of pure water at 25°C?",
+      "o": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "e": "Pure water is neutral with pH 7. Below 7 is acidic and above 7 is basic."
+    },
+    "hi": {
+      "q": "25°C पर शुद्ध जल का pH मान कितना होता है?",
+      "o": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "e": "शुद्ध जल उदासीन होता है, pH 7। 7 से कम अम्लीय और 7 से अधिक क्षारीय।"
+    },
+    "source": "NCERT Class 10 Science",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0008",
+    "subject": "science",
+    "topic": "Biology",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Insulin is secreted by which organ?",
+      "o": [
+        "Liver",
+        "Pancreas",
+        "Kidney",
+        "Thyroid"
+      ],
+      "e": "Beta cells in the islets of Langerhans in the pancreas secrete insulin, which lowers blood sugar."
+    },
+    "hi": {
+      "q": "इंसुलिन किस अंग द्वारा स्रावित होता है?",
+      "o": [
+        "यकृत",
+        "अग्न्याशय",
+        "वृक्क",
+        "थायरॉइड"
+      ],
+      "e": "अग्न्याशय की लैंगरहैंस द्वीपिकाओं की बीटा कोशिकाएँ इंसुलिन बनाती हैं, जो रक्त शर्करा घटाता है।"
+    },
+    "source": "NCERT Class 10 Science",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0009",
+    "subject": "science",
+    "topic": "Physics",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Which mirror is used as a rear-view mirror in vehicles?",
+      "o": [
+        "Concave",
+        "Convex",
+        "Plane",
+        "Cylindrical"
+      ],
+      "e": "A convex mirror gives an upright, smaller image and a wider field of view."
+    },
+    "hi": {
+      "q": "वाहनों में पीछे का दृश्य देखने के लिए कौन-सा दर्पण प्रयोग होता है?",
+      "o": [
+        "अवतल",
+        "उत्तल",
+        "समतल",
+        "बेलनाकार"
+      ],
+      "e": "उत्तल दर्पण सीधा, छोटा प्रतिबिंब और अधिक विस्तृत दृश्य क्षेत्र देता है।"
+    },
+    "source": "NCERT Class 10 Science",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0010",
+    "subject": "science",
+    "topic": "Biology",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Which is the largest gland in the human body?",
+      "o": [
+        "Pancreas",
+        "Thyroid",
+        "Liver",
+        "Pituitary"
+      ],
+      "e": "The liver is the largest gland. The pituitary is called the master gland."
+    },
+    "hi": {
+      "q": "मानव शरीर की सबसे बड़ी ग्रंथि कौन-सी है?",
+      "o": [
+        "अग्न्याशय",
+        "थायरॉइड",
+        "यकृत",
+        "पीयूष ग्रंथि"
+      ],
+      "e": "यकृत सबसे बड़ी ग्रंथि है। पीयूष ग्रंथि को मास्टर ग्रंथि कहा जाता है।"
+    },
+    "source": "NCERT Class 10 Science",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "sci-0011",
+    "subject": "science",
+    "topic": "Chemistry",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "What is the chemical name of baking soda?",
+      "o": [
+        "Sodium carbonate",
+        "Sodium bicarbonate",
+        "Calcium carbonate",
+        "Sodium chloride"
+      ],
+      "e": "Baking soda is sodium hydrogen carbonate (NaHCO₃). Washing soda is sodium carbonate."
+    },
+    "hi": {
+      "q": "खाने के सोडे (बेकिंग सोडा) का रासायनिक नाम क्या है?",
+      "o": [
+        "सोडियम कार्बोनेट",
+        "सोडियम बाइकार्बोनेट",
+        "कैल्शियम कार्बोनेट",
+        "सोडियम क्लोराइड"
+      ],
+      "e": "बेकिंग सोडा सोडियम हाइड्रोजन कार्बोनेट (NaHCO₃) है। धोने का सोडा सोडियम कार्बोनेट है।"
+    },
+    "source": "NCERT Class 10 Science",
+    "added": "2026-09-29"
+  }
+]

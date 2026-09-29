@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #f6f5fb; --surface: #ffffff; --surface-2: #efeefa; --text: #1b1b2f; --muted: #5e5e78;
+  --border: #e2e0f0; --primary: #3b3fd8; --primary-ink: #ffffff; --primary-soft: #e6e7fc;
+  --accent: #f08c00; --accent-soft: #fff1dc; --good: #2b8a3e; --good-soft: #e3f6e7;
+  --bad: #c92a2a; --bad-soft: #fde6e6; --wa: #25d366;
+  --shadow: 0 4px 18px rgba(40, 40, 90, 0.08);
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg: #12121c; --surface: #1c1c2a; --surface-2: #252538; --text: #ededf7; --muted: #a3a3bd;
+    --border: #30304a; --primary: #7b7ff5; --primary-ink: #0e0e18; --primary-soft: #26284f;
+    --accent: #ffa94d; --accent-soft: #3a2a14; --good: #51cf66; --good-soft: #15301d;
+    --bad: #ff6b6b; --bad-soft: #3a1818;
+    --shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-line: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-ink: var(--primary-ink);
+  --color-primary-soft: var(--primary-soft);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --font-sans: "Mukta", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Baloo 2", "Mukta", ui-sans-serif, sans-serif;
+  --shadow-card: var(--shadow);
 }
+
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--bg); color: var(--text); font-size: 17px; line-height: 1.55; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.2; font-weight: 700; }
+
+@layer components {
+  .wrap { @apply mx-auto w-full max-w-3xl px-4; }
+  .card { @apply rounded-2xl border border-line bg-surface p-5 shadow-card; }
+  .btn { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primary px-5 py-3 font-bold text-primary-ink no-underline transition active:scale-[.98] disabled:opacity-50; }
+  .btn-ghost { @apply bg-surface-2 text-ink; }
+  .btn-light { @apply bg-white text-[#2a2da8]; }
+  .btn-wa { @apply bg-[var(--wa)] text-[#0b2e17]; }
+  .tile { @apply flex min-h-24 flex-col gap-1 rounded-2xl border border-line bg-surface p-4 text-ink no-underline transition active:scale-[.98]; }
+  .tile small { @apply text-sm leading-snug text-muted; }
+  .chip { @apply inline-block rounded-full bg-primary-soft px-3 py-0.5 text-xs font-bold text-primary; }
+  .back { @apply mb-3 inline-flex items-center gap-1 font-semibold text-muted no-underline; }
+  .field { @apply w-full rounded-xl border border-line bg-surface px-3 py-2.5 text-ink; }
+}
+
+/* Rich text inside notes (stored as simple HTML in content/notes) */
+.prose-note h2 { font-size: 1.3rem; margin: 1.2em 0 0.4em; }
+.prose-note h3 { font-size: 1.1rem; margin: 1.2em 0 0.4em; }
+.prose-note p { margin: 0.6em 0; }
+.prose-note ul { list-style: disc; padding-left: 1.3em; margin: 0.6em 0; }
+.prose-note li { margin: 0.25em 0; }
+.prose-note table { width: 100%; border-collapse: collapse; font-size: 0.95rem; margin: 0.8em 0; }
+.prose-note th, .prose-note td { border: 1px solid var(--border); padding: 8px; text-align: left; vertical-align: top; }
+.prose-note th { background: var(--surface-2); }
+.prose-note .tip { background: var(--accent-soft); border-radius: 12px; padding: 12px 14px; margin: 14px 0; }
+
+@keyframes shake { 25% { transform: translateX(-5px); } 50% { transform: translateX(5px); } 75% { transform: translateX(-3px); } }
+.shake { animation: shake 0.35s; }

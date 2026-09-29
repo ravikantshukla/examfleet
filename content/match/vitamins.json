@@ -1,0 +1,62 @@
+{
+  "slug": "vitamins",
+  "icon": "💊",
+  "en": {
+    "title": "Vitamins → Deficiency"
+  },
+  "hi": {
+    "title": "विटामिन → कमी से रोग"
+  },
+  "pairs": [
+    {
+      "en": [
+        "Vitamin A",
+        "Night blindness"
+      ],
+      "hi": [
+        "विटामिन A",
+        "रतौंधी"
+      ]
+    },
+    {
+      "en": [
+        "Vitamin B1",
+        "Beriberi"
+      ],
+      "hi": [
+        "विटामिन B1",
+        "बेरीबेरी"
+      ]
+    },
+    {
+      "en": [
+        "Vitamin C",
+        "Scurvy"
+      ],
+      "hi": [
+        "विटामिन C",
+        "स्कर्वी"
+      ]
+    },
+    {
+      "en": [
+        "Vitamin D",
+        "Rickets"
+      ],
+      "hi": [
+        "विटामिन D",
+        "रिकेट्स"
+      ]
+    },
+    {
+      "en": [
+        "Vitamin K",
+        "Delayed blood clotting"
+      ],
+      "hi": [
+        "विटामिन K",
+        "रक्त का थक्का देर से जमना"
+      ]
+    }
+  ]
+}

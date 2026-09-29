@@ -1,0 +1,62 @@
+{
+  "slug": "articles",
+  "icon": "📜",
+  "en": {
+    "title": "Articles → Provisions"
+  },
+  "hi": {
+    "title": "अनुच्छेद → प्रावधान"
+  },
+  "pairs": [
+    {
+      "en": [
+        "Art. 14",
+        "Equality before law"
+      ],
+      "hi": [
+        "अनु. 14",
+        "विधि के समक्ष समता"
+      ]
+    },
+    {
+      "en": [
+        "Art. 17",
+        "Abolition of untouchability"
+      ],
+      "hi": [
+        "अनु. 17",
+        "अस्पृश्यता का अंत"
+      ]
+    },
+    {
+      "en": [
+        "Art. 21",
+        "Life & personal liberty"
+      ],
+      "hi": [
+        "अनु. 21",
+        "प्राण एवं दैहिक स्वतंत्रता"
+      ]
+    },
+    {
+      "en": [
+        "Art. 32",
+        "Constitutional remedies"
+      ],
+      "hi": [
+        "अनु. 32",
+        "संवैधानिक उपचार"
+      ]
+    },
+    {
+      "en": [
+        "Art. 356",
+        "President's Rule"
+      ],
+      "hi": [
+        "अनु. 356",
+        "राष्ट्रपति शासन"
+      ]
+    }
+  ]
+}

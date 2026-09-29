@@ -1,0 +1,352 @@
+[
+  {
+    "id": "his-0001",
+    "subject": "history",
+    "topic": "Modern India",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "In which year was the Battle of Plassey fought?",
+      "o": [
+        "1748",
+        "1757",
+        "1764",
+        "1799"
+      ],
+      "e": "Robert Clive's forces defeated Nawab Siraj-ud-Daulah at Plassey in 1757. The Battle of Buxar followed in 1764."
+    },
+    "hi": {
+      "q": "प्लासी का युद्ध किस वर्ष लड़ा गया?",
+      "o": [
+        "1748",
+        "1757",
+        "1764",
+        "1799"
+      ],
+      "e": "1757 में रॉबर्ट क्लाइव की सेना ने नवाब सिराजुद्दौला को प्लासी में हराया। बक्सर का युद्ध 1764 में हुआ।"
+    },
+    "source": "NCERT Class 8, Our Pasts III",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "his-0002",
+    "subject": "history",
+    "topic": "Freedom Struggle",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 1,
+    "en": {
+      "q": "Where was the first session of the Indian National Congress held in 1885?",
+      "o": [
+        "Calcutta",
+        "Bombay",
+        "Madras",
+        "Lahore"
+      ],
+      "e": "The first session was held in Bombay in December 1885, presided over by W.C. Bonnerjee."
+    },
+    "hi": {
+      "q": "1885 में भारतीय राष्ट्रीय कांग्रेस का पहला अधिवेशन कहाँ हुआ?",
+      "o": [
+        "कलकत्ता",
+        "बंबई",
+        "मद्रास",
+        "लाहौर"
+      ],
+      "e": "पहला अधिवेशन दिसंबर 1885 में बंबई में हुआ, जिसकी अध्यक्षता डब्ल्यू.सी. बनर्जी ने की।"
+    },
+    "source": "NCERT Class 12, Themes in Indian History III",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "his-0003",
+    "subject": "history",
+    "topic": "Freedom Struggle",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "In which year did Gandhi's Dandi March take place?",
+      "o": [
+        "1920",
+        "1928",
+        "1930",
+        "1942"
+      ],
+      "e": "The Dandi March (Salt Satyagraha) began on 12 March 1930 from Sabarmati Ashram."
+    },
+    "hi": {
+      "q": "गांधीजी का दांडी मार्च किस वर्ष हुआ?",
+      "o": [
+        "1920",
+        "1928",
+        "1930",
+        "1942"
+      ],
+      "e": "दांडी मार्च (नमक सत्याग्रह) 12 मार्च 1930 को साबरमती आश्रम से शुरू हुआ।"
+    },
+    "source": "NCERT Class 10, India and the Contemporary World",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "his-0004",
+    "subject": "history",
+    "topic": "Freedom Struggle",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "The Jallianwala Bagh massacre took place in:",
+      "o": [
+        "1905",
+        "1915",
+        "1919",
+        "1922"
+      ],
+      "e": "It happened in Amritsar on 13 April 1919 (Baisakhi), under General Dyer's orders."
+    },
+    "hi": {
+      "q": "जलियाँवाला बाग हत्याकांड किस वर्ष हुआ?",
+      "o": [
+        "1905",
+        "1915",
+        "1919",
+        "1922"
+      ],
+      "e": "यह 13 अप्रैल 1919 (बैसाखी) को अमृतसर में जनरल डायर के आदेश पर हुआ।"
+    },
+    "source": "NCERT Class 10, India and the Contemporary World",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "his-0005",
+    "subject": "history",
+    "topic": "Medieval India",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "In the First Battle of Panipat (1526), Babur defeated:",
+      "o": [
+        "Hemu",
+        "Ibrahim Lodi",
+        "Rana Sanga",
+        "Sher Shah Suri"
+      ],
+      "e": "Babur defeated Ibrahim Lodi in 1526 and founded the Mughal Empire. He defeated Rana Sanga at Khanwa in 1527."
+    },
+    "hi": {
+      "q": "पानीपत के प्रथम युद्ध (1526) में बाबर ने किसे हराया?",
+      "o": [
+        "हेमू",
+        "इब्राहिम लोदी",
+        "राणा सांगा",
+        "शेरशाह सूरी"
+      ],
+      "e": "1526 में बाबर ने इब्राहिम लोदी को हराकर मुगल साम्राज्य की नींव रखी। 1527 में खानवा में राणा सांगा को हराया।"
+    },
+    "source": "NCERT Class 7, Our Pasts II",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "his-0006",
+    "subject": "history",
+    "topic": "Medieval India",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Who built the Buland Darwaza at Fatehpur Sikri?",
+      "o": [
+        "Babur",
+        "Akbar",
+        "Jahangir",
+        "Shah Jahan"
+      ],
+      "e": "Akbar built it to commemorate his victory over Gujarat."
+    },
+    "hi": {
+      "q": "फतेहपुर सीकरी में बुलंद दरवाज़ा किसने बनवाया?",
+      "o": [
+        "बाबर",
+        "अकबर",
+        "जहाँगीर",
+        "शाहजहाँ"
+      ],
+      "e": "अकबर ने गुजरात विजय की स्मृति में इसे बनवाया।"
+    },
+    "source": "NCERT Class 7, Our Pasts II",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "his-0007",
+    "subject": "history",
+    "topic": "Socio-religious Reform",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Who founded the Arya Samaj?",
+      "o": [
+        "Raja Ram Mohan Roy",
+        "Swami Vivekananda",
+        "Swami Dayanand Saraswati",
+        "Jyotiba Phule"
+      ],
+      "e": "Swami Dayanand Saraswati founded the Arya Samaj in Bombay in 1875."
+    },
+    "hi": {
+      "q": "आर्य समाज की स्थापना किसने की?",
+      "o": [
+        "राजा राममोहन राय",
+        "स्वामी विवेकानंद",
+        "स्वामी दयानंद सरस्वती",
+        "ज्योतिबा फुले"
+      ],
+      "e": "स्वामी दयानंद सरस्वती ने 1875 में बंबई में आर्य समाज की स्थापना की।"
+    },
+    "source": "NCERT Class 8, Our Pasts III",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "his-0008",
+    "subject": "history",
+    "topic": "Modern India",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Which Viceroy carried out the Partition of Bengal in 1905?",
+      "o": [
+        "Lord Ripon",
+        "Lord Curzon",
+        "Lord Minto",
+        "Lord Dalhousie"
+      ],
+      "e": "Lord Curzon partitioned Bengal in 1905; it was annulled in 1911."
+    },
+    "hi": {
+      "q": "1905 में बंगाल विभाजन किस वायसराय ने किया?",
+      "o": [
+        "लॉर्ड रिपन",
+        "लॉर्ड कर्ज़न",
+        "लॉर्ड मिंटो",
+        "लॉर्ड डलहौज़ी"
+      ],
+      "e": "लॉर्ड कर्ज़न ने 1905 में बंगाल का विभाजन किया; 1911 में इसे रद्द किया गया।"
+    },
+    "source": "NCERT Class 10, India and the Contemporary World",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "his-0009",
+    "subject": "history",
+    "topic": "Freedom Struggle",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Who gave the slogan 'Do or Die' during the Quit India Movement?",
+      "o": [
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Bal Gangadhar Tilak"
+      ],
+      "e": "Gandhi gave the 'Do or Die' call in Bombay on 8 August 1942."
+    },
+    "hi": {
+      "q": "भारत छोड़ो आंदोलन के दौरान 'करो या मरो' का नारा किसने दिया?",
+      "o": [
+        "सुभाष चंद्र बोस",
+        "महात्मा गांधी",
+        "जवाहरलाल नेहरू",
+        "बाल गंगाधर तिलक"
+      ],
+      "e": "गांधीजी ने 8 अगस्त 1942 को बंबई में 'करो या मरो' का आह्वान किया।"
+    },
+    "source": "NCERT Class 12, Themes in Indian History III",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "his-0010",
+    "subject": "history",
+    "topic": "Ancient India",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 2,
+    "en": {
+      "q": "Which Harappan site is located in Gujarat?",
+      "o": [
+        "Harappa",
+        "Mohenjo-daro",
+        "Lothal",
+        "Kalibangan"
+      ],
+      "e": "Lothal in Gujarat is known for its dockyard. Harappa and Mohenjo-daro are in Pakistan, and Kalibangan is in Rajasthan."
+    },
+    "hi": {
+      "q": "कौन-सा हड़प्पा स्थल गुजरात में स्थित है?",
+      "o": [
+        "हड़प्पा",
+        "मोहनजोदड़ो",
+        "लोथल",
+        "कालीबंगा"
+      ],
+      "e": "गुजरात का लोथल अपने गोदीबाड़े (डॉकयार्ड) के लिए प्रसिद्ध है। हड़प्पा और मोहनजोदड़ो पाकिस्तान में तथा कालीबंगा राजस्थान में है।"
+    },
+    "source": "NCERT Class 12, Themes in Indian History I",
+    "added": "2026-09-29"
+  }
+]

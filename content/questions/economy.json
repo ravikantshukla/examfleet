@@ -1,0 +1,352 @@
+[
+  {
+    "id": "eco-0001",
+    "subject": "economy",
+    "topic": "Banking",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 0,
+    "en": {
+      "q": "In which year was the Reserve Bank of India established?",
+      "o": [
+        "1935",
+        "1947",
+        "1949",
+        "1969"
+      ],
+      "e": "RBI was established on 1 April 1935 and nationalised in 1949."
+    },
+    "hi": {
+      "q": "भारतीय रिज़र्व बैंक की स्थापना किस वर्ष हुई?",
+      "o": [
+        "1935",
+        "1947",
+        "1949",
+        "1969"
+      ],
+      "e": "RBI की स्थापना 1 अप्रैल 1935 को हुई और 1949 में इसका राष्ट्रीयकरण हुआ।"
+    },
+    "source": "Reserve Bank of India, History",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "eco-0002",
+    "subject": "economy",
+    "topic": "Planning",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 1,
+    "en": {
+      "q": "NITI Aayog replaced which body in 2015?",
+      "o": [
+        "Finance Commission",
+        "Planning Commission",
+        "National Development Council",
+        "Election Commission"
+      ],
+      "e": "NITI Aayog was set up on 1 January 2015, replacing the Planning Commission (1950)."
+    },
+    "hi": {
+      "q": "2015 में नीति आयोग ने किस संस्था का स्थान लिया?",
+      "o": [
+        "वित्त आयोग",
+        "योजना आयोग",
+        "राष्ट्रीय विकास परिषद",
+        "निर्वाचन आयोग"
+      ],
+      "e": "नीति आयोग 1 जनवरी 2015 को योजना आयोग (1950) के स्थान पर बना।"
+    },
+    "source": "NITI Aayog",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "eco-0003",
+    "subject": "economy",
+    "topic": "Taxation",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "GST was implemented in India from:",
+      "o": [
+        "1 April 2016",
+        "1 July 2017",
+        "1 January 2018",
+        "1 April 2017"
+      ],
+      "e": "GST came into force on 1 July 2017 through the 101st Constitutional Amendment."
+    },
+    "hi": {
+      "q": "भारत में GST कब से लागू हुआ?",
+      "o": [
+        "1 अप्रैल 2016",
+        "1 जुलाई 2017",
+        "1 जनवरी 2018",
+        "1 अप्रैल 2017"
+      ],
+      "e": "GST 101वें संविधान संशोधन के माध्यम से 1 जुलाई 2017 से लागू हुआ।"
+    },
+    "source": "GST Council",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "eco-0004",
+    "subject": "economy",
+    "topic": "Banking",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Where is the headquarters of the Reserve Bank of India?",
+      "o": [
+        "New Delhi",
+        "Mumbai",
+        "Kolkata",
+        "Chennai"
+      ],
+      "e": "RBI's central office moved from Kolkata to Mumbai in 1937."
+    },
+    "hi": {
+      "q": "भारतीय रिज़र्व बैंक का मुख्यालय कहाँ है?",
+      "o": [
+        "नई दिल्ली",
+        "मुंबई",
+        "कोलकाता",
+        "चेन्नई"
+      ],
+      "e": "RBI का केंद्रीय कार्यालय 1937 में कोलकाता से मुंबई स्थानांतरित हुआ।"
+    },
+    "source": "Reserve Bank of India",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "eco-0005",
+    "subject": "economy",
+    "topic": "Monetary Policy",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 1,
+    "en": {
+      "q": "The rate at which RBI lends short-term money to commercial banks is called:",
+      "o": [
+        "Bank rate",
+        "Repo rate",
+        "Reverse repo rate",
+        "CRR"
+      ],
+      "e": "At the repo rate RBI lends to banks against government securities. Reverse repo is the rate at which RBI borrows from banks."
+    },
+    "hi": {
+      "q": "जिस दर पर RBI वाणिज्यिक बैंकों को अल्पकालिक ऋण देता है, उसे क्या कहते हैं?",
+      "o": [
+        "बैंक दर",
+        "रेपो दर",
+        "रिवर्स रेपो दर",
+        "CRR"
+      ],
+      "e": "रेपो दर पर RBI सरकारी प्रतिभूतियों के बदले बैंकों को ऋण देता है। रिवर्स रेपो दर पर RBI बैंकों से उधार लेता है।"
+    },
+    "source": "Reserve Bank of India",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "eco-0006",
+    "subject": "economy",
+    "topic": "Budget",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "India's financial year begins on:",
+      "o": [
+        "1 January",
+        "1 April",
+        "1 July",
+        "1 October"
+      ],
+      "e": "India's financial year runs from 1 April to 31 March."
+    },
+    "hi": {
+      "q": "भारत का वित्तीय वर्ष कब शुरू होता है?",
+      "o": [
+        "1 जनवरी",
+        "1 अप्रैल",
+        "1 जुलाई",
+        "1 अक्टूबर"
+      ],
+      "e": "भारत का वित्तीय वर्ष 1 अप्रैल से 31 मार्च तक चलता है।"
+    },
+    "source": "Ministry of Finance",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "eco-0007",
+    "subject": "economy",
+    "topic": "National Symbols",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "What is the national aquatic animal of India?",
+      "o": [
+        "Blue whale",
+        "Gangetic river dolphin",
+        "Olive ridley turtle",
+        "Crocodile"
+      ],
+      "e": "The Gangetic river dolphin was declared the national aquatic animal in 2009."
+    },
+    "hi": {
+      "q": "भारत का राष्ट्रीय जलीय जीव कौन-सा है?",
+      "o": [
+        "ब्लू व्हेल",
+        "गंगा नदी डॉल्फिन",
+        "ओलिव रिडले कछुआ",
+        "मगरमच्छ"
+      ],
+      "e": "गंगा नदी डॉल्फिन को 2009 में राष्ट्रीय जलीय जीव घोषित किया गया।"
+    },
+    "source": "MoEFCC notification, 2009",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "eco-0008",
+    "subject": "economy",
+    "topic": "Science and Technology",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Where is the headquarters of ISRO?",
+      "o": [
+        "Sriharikota",
+        "Bengaluru",
+        "Thiruvananthapuram",
+        "Ahmedabad"
+      ],
+      "e": "ISRO is headquartered in Bengaluru. Launches happen from the Satish Dhawan Space Centre, Sriharikota."
+    },
+    "hi": {
+      "q": "इसरो (ISRO) का मुख्यालय कहाँ है?",
+      "o": [
+        "श्रीहरिकोटा",
+        "बेंगलुरु",
+        "तिरुवनंतपुरम",
+        "अहमदाबाद"
+      ],
+      "e": "इसरो का मुख्यालय बेंगलुरु में है। प्रक्षेपण श्रीहरिकोटा के सतीश धवन अंतरिक्ष केंद्र से होते हैं।"
+    },
+    "source": "ISRO",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "eco-0009",
+    "subject": "economy",
+    "topic": "Currency",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 1,
+    "en": {
+      "q": "Whose signature appears on the ₹1 currency note?",
+      "o": [
+        "RBI Governor",
+        "Finance Secretary",
+        "Finance Minister",
+        "President"
+      ],
+      "e": "The ₹1 note is issued by the Government of India and signed by the Finance Secretary. Other notes are signed by the RBI Governor."
+    },
+    "hi": {
+      "q": "₹1 के नोट पर किसके हस्ताक्षर होते हैं?",
+      "o": [
+        "RBI गवर्नर",
+        "वित्त सचिव",
+        "वित्त मंत्री",
+        "राष्ट्रपति"
+      ],
+      "e": "₹1 का नोट भारत सरकार जारी करती है और उस पर वित्त सचिव के हस्ताक्षर होते हैं। बाकी नोटों पर RBI गवर्नर के हस्ताक्षर होते हैं।"
+    },
+    "source": "Reserve Bank of India",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "eco-0010",
+    "subject": "economy",
+    "topic": "Taxation",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Which of these is a direct tax?",
+      "o": [
+        "GST",
+        "Customs duty",
+        "Income tax",
+        "Excise duty"
+      ],
+      "e": "Income tax is paid directly to the government by the person who bears it. GST, customs and excise are indirect taxes."
+    },
+    "hi": {
+      "q": "इनमें से कौन-सा प्रत्यक्ष कर है?",
+      "o": [
+        "GST",
+        "सीमा शुल्क",
+        "आयकर",
+        "उत्पाद शुल्क"
+      ],
+      "e": "आयकर वही व्यक्ति सीधे सरकार को देता है जिस पर उसका भार पड़ता है। GST, सीमा शुल्क और उत्पाद शुल्क अप्रत्यक्ष कर हैं।"
+    },
+    "source": "NCERT Class 11, Indian Economic Development",
+    "added": "2026-09-29"
+  }
+]

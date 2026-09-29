@@ -1,0 +1,16 @@
+{
+  "slug": "vitamins-deficiency-diseases",
+  "subject": "science",
+  "icon": "💊",
+  "updated": "2026-09-29",
+  "en": {
+    "title": "Vitamins & Deficiency Diseases",
+    "description": "One table, zero confusion",
+    "body": "<table><tr><th>Vitamin</th><th>Chemical name</th><th>Deficiency disease</th></tr>\n<tr><td>A</td><td>Retinol</td><td>Night blindness</td></tr>\n<tr><td>B1</td><td>Thiamine</td><td>Beriberi</td></tr>\n<tr><td>B3</td><td>Niacin</td><td>Pellagra</td></tr>\n<tr><td>B12</td><td>Cobalamin</td><td>Pernicious anaemia</td></tr>\n<tr><td>C</td><td>Ascorbic acid</td><td>Scurvy</td></tr>\n<tr><td>D</td><td>Calciferol</td><td>Rickets (children), Osteomalacia (adults)</td></tr>\n<tr><td>K</td><td>Phylloquinone</td><td>Delayed blood clotting</td></tr></table>\n<ul><li><b>Fat-soluble:</b> A, D, E, K. <b>Water-soluble:</b> B-complex and C.</li>\n<li>Vitamin D is made in the skin with sunlight.</li></ul>"
+  },
+  "hi": {
+    "title": "विटामिन और उनकी कमी से होने वाले रोग",
+    "description": "एक तालिका, कोई भ्रम नहीं",
+    "body": "<table><tr><th>विटामिन</th><th>रासायनिक नाम</th><th>कमी से रोग</th></tr>\n<tr><td>A</td><td>रेटिनॉल</td><td>रतौंधी</td></tr>\n<tr><td>B1</td><td>थायमिन</td><td>बेरीबेरी</td></tr>\n<tr><td>B3</td><td>नियासिन</td><td>पेलाग्रा</td></tr>\n<tr><td>B12</td><td>कोबालामिन</td><td>घातक रक्ताल्पता</td></tr>\n<tr><td>C</td><td>एस्कॉर्बिक अम्ल</td><td>स्कर्वी</td></tr>\n<tr><td>D</td><td>कैल्सिफेरॉल</td><td>रिकेट्स (बच्चे), ऑस्टियोमलेशिया (वयस्क)</td></tr>\n<tr><td>K</td><td>फिलोक्विनोन</td><td>रक्त का थक्का देर से जमना</td></tr></table>\n<ul><li><b>वसा में घुलनशील:</b> A, D, E, K। <b>जल में घुलनशील:</b> B-समूह और C।</li>\n<li>विटामिन D धूप की मदद से त्वचा में बनता है।</li></ul>"
+  }
+}
