@@ -1,0 +1,282 @@
+[
+  {
+    "id": "rea-0001",
+    "subject": "reasoning",
+    "topic": "Number Series",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Find the next number: 2, 6, 12, 20, 30, ?",
+      "o": [
+        "40",
+        "42",
+        "44",
+        "48"
+      ],
+      "e": "Differences are 4, 6, 8, 10, so the next is 30 + 12 = 42. (Rule: n × (n+1))"
+    },
+    "hi": {
+      "q": "अगली संख्या ज्ञात करें: 2, 6, 12, 20, 30, ?",
+      "o": [
+        "40",
+        "42",
+        "44",
+        "48"
+      ],
+      "e": "अंतर 4, 6, 8, 10 हैं, इसलिए अगली संख्या 30 + 12 = 42। (नियम: n × (n+1))"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "rea-0002",
+    "subject": "reasoning",
+    "topic": "Odd One Out",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Find the odd one out: 3, 5, 7, 9, 11",
+      "o": [
+        "3",
+        "7",
+        "9",
+        "11"
+      ],
+      "e": "All except 9 are prime numbers. 9 = 3 × 3."
+    },
+    "hi": {
+      "q": "विषम संख्या ज्ञात करें: 3, 5, 7, 9, 11",
+      "o": [
+        "3",
+        "7",
+        "9",
+        "11"
+      ],
+      "e": "9 को छोड़कर सभी अभाज्य संख्याएँ हैं। 9 = 3 × 3।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "rea-0003",
+    "subject": "reasoning",
+    "topic": "Coding-Decoding",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 0,
+    "en": {
+      "q": "If CAT is coded as DBU, how is DOG coded?",
+      "o": [
+        "EPH",
+        "EPG",
+        "DPH",
+        "CNF"
+      ],
+      "e": "Each letter moves one place forward: D→E, O→P, G→H, giving EPH."
+    },
+    "hi": {
+      "q": "यदि CAT को DBU लिखा जाता है, तो DOG को कैसे लिखा जाएगा?",
+      "o": [
+        "EPH",
+        "EPG",
+        "DPH",
+        "CNF"
+      ],
+      "e": "हर अक्षर एक स्थान आगे बढ़ता है: D→E, O→P, G→H, इसलिए EPH।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "rea-0004",
+    "subject": "reasoning",
+    "topic": "Blood Relations",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 0,
+    "en": {
+      "q": "Pointing to a man, Riya says, \"He is the son of my grandfather's only son.\" How is the man related to Riya?",
+      "o": [
+        "Brother",
+        "Cousin",
+        "Uncle",
+        "Father"
+      ],
+      "e": "Her grandfather's only son is Riya's father, and her father's son is her brother."
+    },
+    "hi": {
+      "q": "एक व्यक्ति की ओर इशारा करते हुए रिया कहती है, \"वह मेरे दादा के इकलौते बेटे का बेटा है।\" वह व्यक्ति रिया का क्या लगता है?",
+      "o": [
+        "भाई",
+        "चचेरा भाई",
+        "चाचा",
+        "पिता"
+      ],
+      "e": "दादा का इकलौता बेटा रिया के पिता हैं, और पिता का बेटा रिया का भाई है।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "rea-0005",
+    "subject": "reasoning",
+    "topic": "Alphabet Series",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 2,
+    "en": {
+      "q": "Find the next letter: A, C, F, J, O, ?",
+      "o": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "e": "The gaps grow by one each time: +2, +3, +4, +5. The next gap is +6, so O → U."
+    },
+    "hi": {
+      "q": "अगला अक्षर ज्ञात करें: A, C, F, J, O, ?",
+      "o": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "e": "अंतर हर बार एक बढ़ता है: +2, +3, +4, +5। अगला अंतर +6 है, इसलिए O → U।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "rea-0006",
+    "subject": "reasoning",
+    "topic": "Direction Sense",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Ravi walks 5 km north, turns right and walks 3 km, then turns right again and walks 5 km. In which direction is he from his starting point?",
+      "o": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "e": "The 5 km north and 5 km south cancel out, so he ends 3 km east of where he started."
+    },
+    "hi": {
+      "q": "रवि 5 किमी उत्तर चलता है, दाएँ मुड़कर 3 किमी चलता है, फिर दोबारा दाएँ मुड़कर 5 किमी चलता है। वह अपने प्रारंभिक बिंदु से किस दिशा में है?",
+      "o": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम"
+      ],
+      "e": "5 किमी उत्तर और 5 किमी दक्षिण आपस में कट जाते हैं, इसलिए वह प्रारंभ से 3 किमी पूर्व में है।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "rea-0007",
+    "subject": "reasoning",
+    "topic": "Analogy",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Book is to Author as Painting is to:",
+      "o": [
+        "Canvas",
+        "Painter",
+        "Brush",
+        "Gallery"
+      ],
+      "e": "An author creates a book; a painter creates a painting."
+    },
+    "hi": {
+      "q": "पुस्तक : लेखक :: चित्र : ?",
+      "o": [
+        "कैनवास",
+        "चित्रकार",
+        "ब्रश",
+        "गैलरी"
+      ],
+      "e": "पुस्तक लेखक बनाता है; चित्र चित्रकार बनाता है।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "rea-0008",
+    "subject": "reasoning",
+    "topic": "Ranking",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "In a row of 40 students, Aman is 15th from the left. What is his position from the right?",
+      "o": [
+        "24th",
+        "25th",
+        "26th",
+        "27th"
+      ],
+      "e": "Position from right = Total − Position from left + 1 = 40 − 15 + 1 = 26."
+    },
+    "hi": {
+      "q": "40 छात्रों की पंक्ति में अमन बाएँ से 15वें स्थान पर है। दाएँ से उसका स्थान क्या है?",
+      "o": [
+        "24वाँ",
+        "25वाँ",
+        "26वाँ",
+        "27वाँ"
+      ],
+      "e": "दाएँ से स्थान = कुल − बाएँ से स्थान + 1 = 40 − 15 + 1 = 26।"
+    },
+    "source": "Original",
+    "added": "2026-09-29"
+  }
+]

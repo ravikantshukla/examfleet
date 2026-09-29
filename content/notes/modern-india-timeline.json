@@ -1,0 +1,16 @@
+{
+  "slug": "modern-india-timeline",
+  "subject": "history",
+  "icon": "🏛️",
+  "updated": "2026-09-29",
+  "en": {
+    "title": "Modern India Timeline",
+    "description": "10 dates every exam asks",
+    "body": "<table><tr><th>Year</th><th>Event</th></tr>\n<tr><td>1757</td><td>Battle of Plassey</td></tr>\n<tr><td>1764</td><td>Battle of Buxar</td></tr>\n<tr><td>1857</td><td>Revolt of 1857</td></tr>\n<tr><td>1885</td><td>Indian National Congress founded (Bombay)</td></tr>\n<tr><td>1905</td><td>Partition of Bengal; Swadeshi Movement</td></tr>\n<tr><td>1919</td><td>Jallianwala Bagh massacre</td></tr>\n<tr><td>1920</td><td>Non-Cooperation Movement</td></tr>\n<tr><td>1930</td><td>Dandi March / Civil Disobedience</td></tr>\n<tr><td>1942</td><td>Quit India Movement (\"Do or Die\")</td></tr>\n<tr><td>1947</td><td>Independence (15 August)</td></tr></table>\n<div class=\"tip\"><b>Tip:</b> Learn events in pairs – Plassey (1757) and Buxar (1764); Non-Cooperation (1920) and Civil Disobedience (1930).</div>"
+  },
+  "hi": {
+    "title": "आधुनिक भारत की समयरेखा",
+    "description": "हर परीक्षा में पूछी जाने वाली 10 तिथियाँ",
+    "body": "<table><tr><th>वर्ष</th><th>घटना</th></tr>\n<tr><td>1757</td><td>प्लासी का युद्ध</td></tr>\n<tr><td>1764</td><td>बक्सर का युद्ध</td></tr>\n<tr><td>1857</td><td>1857 का विद्रोह</td></tr>\n<tr><td>1885</td><td>भारतीय राष्ट्रीय कांग्रेस की स्थापना (बंबई)</td></tr>\n<tr><td>1905</td><td>बंगाल विभाजन; स्वदेशी आंदोलन</td></tr>\n<tr><td>1919</td><td>जलियाँवाला बाग हत्याकांड</td></tr>\n<tr><td>1920</td><td>असहयोग आंदोलन</td></tr>\n<tr><td>1930</td><td>दांडी मार्च / सविनय अवज्ञा</td></tr>\n<tr><td>1942</td><td>भारत छोड़ो आंदोलन (\"करो या मरो\")</td></tr>\n<tr><td>1947</td><td>स्वतंत्रता (15 अगस्त)</td></tr></table>\n<div class=\"tip\"><b>टिप:</b> घटनाओं को जोड़ों में याद करें – प्लासी (1757) और बक्सर (1764); असहयोग (1920) और सविनय अवज्ञा (1930)।</div>"
+  }
+}

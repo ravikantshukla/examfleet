@@ -1,0 +1,62 @@
+{
+  "slug": "lakes",
+  "icon": "🌊",
+  "en": {
+    "title": "Lakes → States"
+  },
+  "hi": {
+    "title": "झील → राज्य"
+  },
+  "pairs": [
+    {
+      "en": [
+        "Chilika",
+        "Odisha"
+      ],
+      "hi": [
+        "चिल्का",
+        "ओडिशा"
+      ]
+    },
+    {
+      "en": [
+        "Loktak",
+        "Manipur"
+      ],
+      "hi": [
+        "लोकटक",
+        "मणिपुर"
+      ]
+    },
+    {
+      "en": [
+        "Sambhar",
+        "Rajasthan"
+      ],
+      "hi": [
+        "सांभर",
+        "राजस्थान"
+      ]
+    },
+    {
+      "en": [
+        "Vembanad",
+        "Kerala"
+      ],
+      "hi": [
+        "वेम्बनाड",
+        "केरल"
+      ]
+    },
+    {
+      "en": [
+        "Kolleru",
+        "Andhra Pradesh"
+      ],
+      "hi": [
+        "कोल्लेरू",
+        "आंध्र प्रदेश"
+      ]
+    }
+  ]
+}

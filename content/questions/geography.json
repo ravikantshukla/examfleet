@@ -1,0 +1,352 @@
+[
+  {
+    "id": "geo-0001",
+    "subject": "geography",
+    "topic": "Indian States",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Which is the largest Indian state by area?",
+      "o": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Rajasthan",
+        "Uttar Pradesh"
+      ],
+      "e": "Rajasthan is the largest by area; Uttar Pradesh is the largest by population."
+    },
+    "hi": {
+      "q": "क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन-सा है?",
+      "o": [
+        "मध्य प्रदेश",
+        "महाराष्ट्र",
+        "राजस्थान",
+        "उत्तर प्रदेश"
+      ],
+      "e": "क्षेत्रफल में राजस्थान सबसे बड़ा है; जनसंख्या में उत्तर प्रदेश।"
+    },
+    "source": "Census of India",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "geo-0002",
+    "subject": "geography",
+    "topic": "Physical Geography",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "The Palk Strait separates India from:",
+      "o": [
+        "Myanmar",
+        "Sri Lanka",
+        "Maldives",
+        "Bangladesh"
+      ],
+      "e": "The Palk Strait lies between Tamil Nadu and northern Sri Lanka."
+    },
+    "hi": {
+      "q": "पाक जलडमरूमध्य भारत को किस देश से अलग करता है?",
+      "o": [
+        "म्यांमार",
+        "श्रीलंका",
+        "मालदीव",
+        "बांग्लादेश"
+      ],
+      "e": "पाक जलडमरूमध्य तमिलनाडु और उत्तरी श्रीलंका के बीच है।"
+    },
+    "source": "NCERT Class 9, Contemporary India",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "geo-0003",
+    "subject": "geography",
+    "topic": "Physical Geography",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 2,
+    "en": {
+      "q": "The Tropic of Cancer passes through how many Indian states?",
+      "o": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "e": "8 states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram."
+    },
+    "hi": {
+      "q": "कर्क रेखा भारत के कितने राज्यों से होकर गुजरती है?",
+      "o": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "e": "8 राज्य: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा और मिज़ोरम।"
+    },
+    "source": "NCERT Class 9, Contemporary India",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "geo-0004",
+    "subject": "geography",
+    "topic": "Lakes",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Chilika Lake, India's largest coastal (brackish water) lagoon, is in:",
+      "o": [
+        "West Bengal",
+        "Odisha",
+        "Andhra Pradesh",
+        "Kerala"
+      ],
+      "e": "Chilika Lake is in Odisha."
+    },
+    "hi": {
+      "q": "भारत की सबसे बड़ी तटीय (खारे पानी की) लैगून चिल्का झील किस राज्य में है?",
+      "o": [
+        "पश्चिम बंगाल",
+        "ओडिशा",
+        "आंध्र प्रदेश",
+        "केरल"
+      ],
+      "e": "चिल्का झील ओडिशा में है।"
+    },
+    "source": "Ramsar Sites of India, MoEFCC",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "geo-0005",
+    "subject": "geography",
+    "topic": "Lakes",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 1,
+    "en": {
+      "q": "Loktak Lake, famous for its floating 'phumdis', is in:",
+      "o": [
+        "Assam",
+        "Manipur",
+        "Mizoram",
+        "Meghalaya"
+      ],
+      "e": "Loktak Lake is in Manipur. Keibul Lamjao, the world's only floating national park, is on it."
+    },
+    "hi": {
+      "q": "तैरते 'फुमदी' के लिए प्रसिद्ध लोकटक झील किस राज्य में है?",
+      "o": [
+        "असम",
+        "मणिपुर",
+        "मिज़ोरम",
+        "मेघालय"
+      ],
+      "e": "लोकटक झील मणिपुर में है। इस पर दुनिया का एकमात्र तैरता राष्ट्रीय उद्यान केबुल लामजाओ है।"
+    },
+    "source": "Government of Manipur, Loktak Development Authority",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "geo-0006",
+    "subject": "geography",
+    "topic": "Mountains",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "medium",
+    "answer": 1,
+    "en": {
+      "q": "The highest peak of the Western Ghats is:",
+      "o": [
+        "Doddabetta",
+        "Anamudi",
+        "Mahendragiri",
+        "Guru Shikhar"
+      ],
+      "e": "Anamudi (2,695 m) in Kerala is the highest peak in the Western Ghats and in South India."
+    },
+    "hi": {
+      "q": "पश्चिमी घाट की सबसे ऊँची चोटी कौन-सी है?",
+      "o": [
+        "डोडाबेट्टा",
+        "अनामुडी",
+        "महेंद्रगिरि",
+        "गुरु शिखर"
+      ],
+      "e": "केरल में अनामुडी (2,695 मी) पश्चिमी घाट और दक्षिण भारत की सबसे ऊँची चोटी है।"
+    },
+    "source": "NCERT Class 11, India: Physical Environment",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "geo-0007",
+    "subject": "geography",
+    "topic": "Rivers",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Which of these rivers flows west into the Arabian Sea?",
+      "o": [
+        "Godavari",
+        "Krishna",
+        "Narmada",
+        "Mahanadi"
+      ],
+      "e": "Narmada and Tapi flow west through rift valleys into the Arabian Sea. The others flow into the Bay of Bengal."
+    },
+    "hi": {
+      "q": "इनमें से कौन-सी नदी पश्चिम की ओर बहकर अरब सागर में गिरती है?",
+      "o": [
+        "गोदावरी",
+        "कृष्णा",
+        "नर्मदा",
+        "महानदी"
+      ],
+      "e": "नर्मदा और तापी भ्रंश घाटियों से होकर पश्चिम में अरब सागर में गिरती हैं; बाकी बंगाल की खाड़ी में।"
+    },
+    "source": "NCERT Class 9, Contemporary India",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "geo-0008",
+    "subject": "geography",
+    "topic": "Soils",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Black soil (Regur) is best suited for growing:",
+      "o": [
+        "Rice",
+        "Tea",
+        "Cotton",
+        "Wheat"
+      ],
+      "e": "Black soil retains moisture well, which makes it ideal for cotton. It is also called black cotton soil."
+    },
+    "hi": {
+      "q": "काली मिट्टी (रेगुर) किस फसल के लिए सबसे उपयुक्त है?",
+      "o": [
+        "धान",
+        "चाय",
+        "कपास",
+        "गेहूँ"
+      ],
+      "e": "काली मिट्टी नमी अच्छी तरह रोकती है, इसलिए कपास के लिए आदर्श है। इसे काली कपास मिट्टी भी कहते हैं।"
+    },
+    "source": "NCERT Class 10, Contemporary India II",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "geo-0009",
+    "subject": "geography",
+    "topic": "Rivers",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 1,
+    "en": {
+      "q": "Which is the longest river of peninsular India?",
+      "o": [
+        "Krishna",
+        "Godavari",
+        "Kaveri",
+        "Narmada"
+      ],
+      "e": "The Godavari is the longest peninsular river and is often called the Dakshin Ganga."
+    },
+    "hi": {
+      "q": "प्रायद्वीपीय भारत की सबसे लंबी नदी कौन-सी है?",
+      "o": [
+        "कृष्णा",
+        "गोदावरी",
+        "कावेरी",
+        "नर्मदा"
+      ],
+      "e": "गोदावरी सबसे लंबी प्रायद्वीपीय नदी है और इसे दक्षिण गंगा भी कहा जाता है।"
+    },
+    "source": "NCERT Class 9, Contemporary India",
+    "added": "2026-09-29"
+  },
+  {
+    "id": "geo-0010",
+    "subject": "geography",
+    "topic": "Indian States",
+    "exams": [
+      "ssc",
+      "railway",
+      "bank",
+      "state-psc"
+    ],
+    "difficulty": "easy",
+    "answer": 2,
+    "en": {
+      "q": "Which Indian state has the longest coastline?",
+      "o": [
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "e": "Gujarat has the longest coastline of any Indian state."
+    },
+    "hi": {
+      "q": "भारत में सबसे लंबी तटरेखा किस राज्य की है?",
+      "o": [
+        "आंध्र प्रदेश",
+        "तमिलनाडु",
+        "गुजरात",
+        "महाराष्ट्र"
+      ],
+      "e": "भारत के सभी राज्यों में गुजरात की तटरेखा सबसे लंबी है।"
+    },
+    "source": "NCERT Class 9, Contemporary India",
+    "added": "2026-09-29"
+  }
+]

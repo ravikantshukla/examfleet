@@ -1,0 +1,62 @@
+{
+  "slug": "reformers",
+  "icon": "🪔",
+  "en": {
+    "title": "Organisations → Founders"
+  },
+  "hi": {
+    "title": "संस्था → संस्थापक"
+  },
+  "pairs": [
+    {
+      "en": [
+        "Arya Samaj",
+        "Dayanand Saraswati"
+      ],
+      "hi": [
+        "आर्य समाज",
+        "दयानंद सरस्वती"
+      ]
+    },
+    {
+      "en": [
+        "Brahmo Samaj",
+        "Raja Ram Mohan Roy"
+      ],
+      "hi": [
+        "ब्रह्म समाज",
+        "राजा राममोहन राय"
+      ]
+    },
+    {
+      "en": [
+        "Ramakrishna Mission",
+        "Swami Vivekananda"
+      ],
+      "hi": [
+        "रामकृष्ण मिशन",
+        "स्वामी विवेकानंद"
+      ]
+    },
+    {
+      "en": [
+        "Satyashodhak Samaj",
+        "Jyotiba Phule"
+      ],
+      "hi": [
+        "सत्यशोधक समाज",
+        "ज्योतिबा फुले"
+      ]
+    },
+    {
+      "en": [
+        "Servants of India Society",
+        "Gopal Krishna Gokhale"
+      ],
+      "hi": [
+        "सर्वेंट्स ऑफ इंडिया सोसाइटी",
+        "गोपाल कृष्ण गोखले"
+      ]
+    }
+  ]
+}
